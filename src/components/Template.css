@@ -1,0 +1,33 @@
+.template {
+    background: white;
+    width: 800px;
+    height: 700px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); /* 그림자 */ 
+    margin: 0 auto; /* 페이지 중앙 정렬 */
+    margin-top: 4rem;
+  }
+  
+  .title {
+    padding-left: 1.2rem;
+    padding-right: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 100;
+    background: gray;
+    color: white;
+  }
+  
+  .form-wrapper {
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+  }
+  
+  .todos-wrapper {
+    min-height: 5rem;
+  }
+
+  .form-wrapper form div {
+    padding : 5px;
+  }
